@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #7c7676;
+    text-decoration: none;
+}
+
+header{
+    display: block;
+    width: 100%;
+    height: 62px;
+    background-color: #176cda;
+    padding: 5px 0px 0px 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.logo-image{
+    width: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-image img{
+    width: 35px;
+    height: 35px;
+}
+
+.logo-image p{
+    padding: 15px 0px 0px 9px;
+    text-align: center;
+    color: #fff;
+}
+
+.menu{
+    padding-top: 15px;
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.list-link{
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.list-link:hover{
+    color: #7c7676;
+    text-decoration: underline;
+}
+
+.hamburg-menu{
+    display: none;
+}
+
+.hamburg-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.hamburg-icon span {
+    display: block;
+    height: 2px;
+    width: 25px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+/* end header */
+
+.wrapper{
+    /* padding: 25px 0px; */
+    width: 100%;
+    min-height: 450px;
+}
+
+.wrapper .container{
+    margin: 25px auto;
+    width: 85%;
+    height: 100%;
+}
+
+.lesson{
+    display: flex;
+}
+
+.lesson-block{
+    height: 365px;
+    width: 860px;
+    border: 1px solid black;
+}
+
+.lesson-block .lesson-content{
+    width: 100%;
+    height: 100px;
+    padding: 15px 35px;
+}
+
+.lesson-content{
+    color: #000;
+}
+
+.lesson-content > p{
+    text-align: justify;
+}
+
+h4, h5{
+    padding-left: 15px;
+}
+
+.lesson-content > h3, h4, h5, h6, p, ol, li, b, i{
+    color: #000;
+    list-style-type: none;
+}
+
+.minus-list{
+    padding-left: 10px;
+}
+
+.active{
+    min-height: 340px;
+    overflow-y: scroll;
+}
+
+.lesson-choose{
+    margin: 0px 10px 0px 10px;
+    min-width: 150px;
+}
+
+.lesson-choose .block-btn{
+    margin-bottom: 15px;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: rgb(163, 157, 157);
+    color:#fff;
+    cursor: pointer;
+    transition: 0.2 ease;
+}
+
+.block-btn:hover{
+    background-color: rgba(134, 129, 129, 0.6);
+}
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 125px;
+    background-color: #37464475;
+}
+
+.footer-header{
+    display: flex;
+    padding: 45px 0px;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 90px;
+}
+
+.footer-header div > ul li{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.footer-header div > ul li a{
+    color: #fff;
+}
+
+.footer-header div > ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    background-color: #085853;
+}
+
+.footer-footer p{
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer-footer a{
+    padding-left: 25px;
+    font-size: 12px;
+    color: blue;
+}
+
+.footer-footer a:hover{
+    color:#fff;
+    text-decoration: underline;
+}
+/* end footer */
